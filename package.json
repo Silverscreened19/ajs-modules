@@ -1,0 +1,29 @@
+{
+  "name": "ajs-modules",
+  "version": "1.0.0",
+  "description": "modules h",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server ./dist",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silverscreened19/ajs-modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silverscreened19/ajs-modules/issues"
+  },
+  "homepage": "https://github.com/Silverscreened19/ajs-modules#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
